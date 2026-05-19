@@ -183,3 +183,35 @@ body {
     border-radius: 12px;
     outline: none; 
 }
+.newsletter-box button {
+    padding: 16px 30px;
+    border: none;
+    border-radius: 12px;
+    background: #38bdf8;
+    color: white;
+    cursor: pointer;
+}
+
+.footer {
+    padding: 30px;
+    text-align: center;
+    opacity: 0.7;
+}
+
+@media(max-width:900px) {
+
+    .header {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .hero-content h1 {
+        font-size: 42px;
+    }
+
+    .nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
