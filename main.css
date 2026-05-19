@@ -153,3 +153,33 @@ body {
     cursor: pointer;
     font-weight: 600; 
 }
+.newsletter {
+    padding: 80px 8%;
+    text-align: center;
+    background: #111827;
+}
+
+.newsletter h2 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.newsletter p {
+    opacity: 0.7;
+    margin-bottom: 30px;
+}
+
+.newsletter-box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.newsletter-box input {
+    width: 350px;
+    padding: 16px;
+    border: none;
+    border-radius: 12px;
+    outline: none; 
+}
