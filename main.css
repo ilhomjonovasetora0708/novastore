@@ -136,3 +136,20 @@ body {
     line-height: 1.6;
     margin-bottom: 15px;
 }
+.price {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #38bdf8;
+}
+
+.add-btn {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 12px;
+    background: #38bdf8;
+    color: white;
+    cursor: pointer;
+    font-weight: 600; 
+}
