@@ -20,3 +20,31 @@ body {
     background: #0f172a;
     z-index: 100;
 }
+.logo {
+    font-size: 28px;
+    font-weight: 700;
+    color: #38bdf8;
+}
+
+.nav {
+    display: flex;
+    gap: 30px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.nav a:hover {
+    color: #38bdf8;
+}
+
+.cart-btn {
+    background: #38bdf8;
+    padding: 12px 18px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: 600; 
+}
